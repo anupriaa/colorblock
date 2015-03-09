@@ -1,5 +1,6 @@
 body {
   padding-top: 50px;  /* Move body of page below navbar. */
+  background-color: pink;
 }
 
 .page-content {
@@ -7,40 +8,20 @@ body {
   text-align: center;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
 .navbar-inverse{
-  height: 71px;
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.section1{
-  background-image: url("https://sewmanju.files.wordpress.com/2013/08/dsc_2089.jpg");
-  height: 670px;
-}
-.section2{
-  background-image: url("http://www.snazzyspace.com/defaultimages/f75b91_pink-lace.gif");
-  height: 630px;
-}
-
-.section2 h2{
-  margin-top: 0px;
-}
-.section3 h2{
-  margin-top: 0px;
-
-  background-image: url("http://freegeneraldirectories.com/wp-content/uploads/2014/03/pink-lace-background-tumblrbackgrounds-to-tumblrblog-by-kevlarsouls-on-we-heart-it-rfb0enpb.png");
-  background-color: violet;
-  height: 500px;
-}
-.section4 h2{
-  margin-top: 0px;
-  background-image: url("http://www.sociallyyours.com/images/thumbs/0002403_1000_1.jpeg");
-  background-color: violet;
-  height: 500px;
-}
-.footer h2{
-  margin-top: 0px;
-  background-image: url("http://fc00.deviantart.net/fs70/f/2012/291/7/9/custom_box_background___pink_lace_by_revedekat-d5i5ye0.jpg");
-  background-color: violet;
-  height: 300px;
-}
-#img1{
-  float: left;
+.navbar-inverse li a{
+  height: 40px;
+  margin: 0;
+  border: none;
+  border-radius: 3px !important;
+  text-shadow: none;
+  font-size: 15px;
 }
